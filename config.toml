@@ -20,6 +20,8 @@ gitlab = "IanS5"
 email = "IanShehadeh2020@gmail.com"
 rss = "index.xml"
 
+[params.sections_left]
+"/about" = "About"
 
 
 [params.social.config]
