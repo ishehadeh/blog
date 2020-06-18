@@ -1,0 +1,26 @@
+baseURL = "http://ian.shehadeh.net/"
+languageCode = "en-us"
+title = "Ian's Website"
+
+theme = "kiss"
+enableRobotsTXT = true
+
+[params.info]
+enableSocial = true
+homeTitle = "Ian's Website"
+
+[params.rss]
+includeContent = true
+authorName = "Ian Shehadeh"
+authorEmail = "IanShehadeh2020@gmail.com"
+
+[params.social]
+github = "IanS5"
+gitlab = "IanS5"
+email = "IanShehadeh2020@gmail.com"
+rss = "index.xml"
+
+
+
+[params.social.config]
+platforms = ["github", "gitlab", "email","rss"]
