@@ -18,7 +18,7 @@ authorEmail = "IanShehadeh2020@gmail.com"
 github = "ishehadeh"
 email = "IanShehadeh2020@gmail.com"
 rss = "index.xml"
-mastodon = "ianshehadeh@indieweb.social"
+mastodon = "indieweb.social/@ianshehadeh"
 
 [params.sections_left]
 "/about" = "About"
