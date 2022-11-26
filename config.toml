@@ -15,14 +15,14 @@ authorName = "Ian Shehadeh"
 authorEmail = "IanShehadeh2020@gmail.com"
 
 [params.social]
-github = "IanS5"
-gitlab = "IanS5"
+github = "ishehadeh"
 email = "IanShehadeh2020@gmail.com"
 rss = "index.xml"
+mastodon = "ianshehadeh@indieweb.social"
 
 [params.sections_left]
 "/about" = "About"
 
 
 [params.social.config]
-platforms = ["github", "gitlab", "email","rss"]
+platforms = ["github", "mastodon", "email","rss"]
