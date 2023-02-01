@@ -19,10 +19,11 @@ github = "ishehadeh"
 email = "IanShehadeh2020@gmail.com"
 rss = "index.xml"
 mastodon = "indieweb.social/@ianshehadeh"
+linkedin = "ian-shehadeh-421480160"
 
 [params.sections_left]
 "/about" = "About"
 
 
 [params.social.config]
-platforms = ["github", "mastodon", "email","rss"]
+platforms = ["github", "mastodon", "linkedin", "email", "rss"]
