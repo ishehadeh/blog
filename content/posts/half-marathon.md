@@ -16,7 +16,7 @@ It was a goal of mine for a while. I had hoped to get there sometime this summer
 
 On Saturday I went for a longer run after work, it felt great, so I set a tentative goal to run 11 miles on Wednesday. It's been about 4 weeks since a ran 10, and my daily runs have been a lot bit longer the past couple weeks. So, it seemed reasonable to push my personal best.
 
-Yesterday I set out to run a bit further than usual, in order to prepare for the longer run Wednesday. I ran my usual route through Historic St. Mary's City, past the visitor's center and onto the little trail loop. From my dorm to the trails is about 2mi, and the loop is 3.
+Yesterday I set out to run a bit further than usual, in order to prepare for the longer run Wednesday. I ran the usual route through Historic St. Mary's City, past the visitor's center and onto the trail loop. From my dorm to the trails is about 2 miles, and the loop is 3.
 
 I stopped to tie my shoe right before getting into the woods. Then roughly 3 steps into the woods I dropped an earbud taking off my jacket. I was a little bit peeved having to stop twice, but my time recovered, eventually.
 
