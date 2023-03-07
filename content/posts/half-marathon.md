@@ -14,7 +14,7 @@ It was a goal of mine for a while. I had hoped to get there sometime this summer
 
 ## The Run
 
-On Saturday I went for a longer run after work, it felt great, so I set a tentative goal to run 11 on Wednesday.
+On Saturday I went for a longer run after work, it felt great, so I set a tentative goal to run 11 miles on Wednesday. It's been about 4 weeks since a ran 10, and my daily runs have been a lot longer the past couple weeks, so trying to up my mileage by a bit seemed like a good idea. 
 
 On Monday I set out to run a bit further than usual, in order to prepare for the longer run Wednesday. I ran my usual route through Historic St. Mary's City, past the visitor's center and onto the little trail loop. From my dorm to the trails is about 2mi, and the loop is 3.
 
