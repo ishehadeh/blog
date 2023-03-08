@@ -28,6 +28,6 @@ Once I turned around every ailment mention cleared up. It felt almost like I had
 
 ## Reflection
 
-I'm trilled just to have run the distance, it was a big leap from previous highest, [10 miles](/posts/10mi). Although, I do want to work on the time. I ran 13.24 miles in 2:07:36, so my pace was 9'38"/mi. All the splits from miles 3-11 were hovering somewhere around 9:30 to 10:00, with the majority somewhere in 9:45-10 range. I'd love to bring those down to all hover around 9:30.
+I'm trilled just to have run the distance, it was a big leap from next best, [10 miles](/posts/10mi). Although, I do want to work on the time. I ran 13.24 miles in 2:07:36, so my pace was 9'38"/mi. All the times for miles 3-11 were hovering somewhere around 9'30" to 10'00" per mile, with the majority somewhere in 9'45" to 10\' range. Part of the reason for the slower pace was because those were the miles on the trail. The trails in Historic St. Mary's aren't particularly technical, but I've noticed I consistently run a bit slower on them, even on shorter runs. Still, I'd love to bring those mile times down to 9'30". Next goal is to get my time under 2 hours. Eventually.
 
-Part of the reason for the slower pace was that those were the miles on the trail. The trail wasn't particularly technical, but I've noticed even on shorter runs I consistently run a bit slower on it.
+Thanks for reading! :)
