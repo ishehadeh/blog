@@ -2,7 +2,7 @@
 title: "Half Marathon"
 date: 2023-03-07T15:33:00-05:00
 summary: Finally achieved a long-standing goal
-draft: true
+draft: false
 tags:
   - running
   - journal
