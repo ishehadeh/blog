@@ -1,7 +1,7 @@
 ---
 title: "Half Marathon"
 date: 2023-03-07T15:33:00-05:00
-summary: Finally achieved a long-standing goal
+summary: Ran my first half marathon!
 draft: false
 tags:
   - running
