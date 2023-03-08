@@ -24,7 +24,7 @@ After running a quarter of the trail I was feeling great. It was so, so relaxing
 
 The rest of that loop was fantastic, but the second was more difficult. I definitely didn't drink enough water ahead of time. By the time I started on the third I wasn't feeling great physically. My feet were achy, I had a stitch in my side and my mouth was really, really dry; But, I was also over half way there! Plus, I was still having a good time. I still had room to think, and I was enjoying the conversation on [High and Mighty](https://headgum.com/high-and-mighty/344-matrix-trilogy-w-actionboyz). After I completed the last loop my watch read something around 11.75 miles. Since the run back to my dorm was almost exactly 2, I ran a quarter mile into the woods before turning around.
 
-Once I turned around every ailment mention cleared up. It felt almost like I had just started the run. I ran the last mile and a half at least a minute faster than the rest.
+Once I turned around every ailment mention cleared up. It felt almost like I had just started the run. I ran the last mile and a half at least a minute faster than any other mile. I was so excited when I finally stopped.
 
 ## Reflection
 
