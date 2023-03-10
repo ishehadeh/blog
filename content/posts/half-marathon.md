@@ -14,7 +14,7 @@ It's been a goal of mine for a while. I had hoped to get there sometime this sum
 
 ## The Run
 
-On Saturday (March 4th) I went for a longer run after work, it felt great, so I set a tentative goal to run 11 miles on Wednesday. It's been about 4 weeks since a ran 10, and my daily runs have been a lot bit longer the past couple weeks. So, it seemed reasonable to push my personal best.
+On Saturday (March 4th) I went for a longer run after work, it felt great, so I set a tentative goal to run 11 miles on Wednesday. It's been about 4 weeks since a ran 10, and my daily runs have been a lot longer the past couple weeks. So, it seemed reasonable to push my personal best.
 
 Yesterday (March 6th) I set out to run a bit further than usual, in order to prepare for the longer run Wednesday. It turned out to be a perfect day for a run, a little chilly, but not enough to be uncomfortable, and the sun was shining. I ran the usual route through Historic St. Mary's City, past the visitor's center and onto the trail loop. From my dorm to the trails is about 2 miles, and the loop is roughly 3. I typically run about 5 to 10 minutes into the woods, then turn around for my daily runs. For longer runs, like yesterday, I'll do the whole loop.
 
