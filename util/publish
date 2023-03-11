@@ -1,0 +1,56 @@
+#!/bin/sh
+
+set -o errexit -o nounset
+
+if [ "${PROJECT_ROOT-unset}" = "unset" ]; then
+    PROJECT_ROOT="$(dirname $(dirname "$(readlink -f "$0")"))"
+fi
+
+if [ "${HUGO_BIN-unset}" = "unset" ]; then
+    HUGO_BIN="$(command -v hugo)"
+fi
+
+if [ "${GIT_BIN-unset}" = "unset" ]; then
+    GIT_BIN="$(command -v git)"
+fi
+
+HUGO_FLAGS="${HUGO_FLAGS:-}"
+
+echo "PROJECT_ROOT='$PROJECT_ROOT'"
+echo "HUGO_BIN='$HUGO_BIN'"
+echo "GIT_BIN='$GIT_BIN'"
+echo "HUGO_FLAGS='$HUGO_FLAGS'"
+
+
+cd "$PROJECT_ROOT"
+
+built_commit_hash="$("$GIT_BIN" rev-parse HEAD)"
+built_commit_msg="$("$GIT_BIN"  show HEAD -s '--format=%s')"
+if [ "${PROJECT_REMOTE_URL:-unset}" = "unset" ]; then
+    PROJECT_REMOTE_URL="$("$GIT_BIN" remote get-url ${PROJECT_REMOTE_NAME:-origin})"
+fi
+
+echo "PROJECT_REMOTE_URL='$PROJECT_REMOTE_URL'"
+
+"$HUGO_BIN" $HUGO_FLAGS
+
+cd "$PROJECT_ROOT/public"
+
+"$GIT_BIN" add .
+
+"$GIT_BIN" commit -F - <<EOF
+hugo publish: ${built_commit_hash}
+
+Source: ${PROJECT_REMOTE_URL}
+Source-Commit: ${built_commit_hash}
+Source-Commit-Msg: ${built_commit_msg}
+Generated-By: $("$HUGO_BIN" version)
+EOF
+
+"$GIT_BIN" show
+
+echo -n "Push? [y/N] "
+read push_response
+if [ "$push_response" = "y" ] || [ "$push_response" = "Y" ]; then
+    "$GIT_BIN" push
+fi
