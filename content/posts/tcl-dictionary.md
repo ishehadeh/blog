@@ -53,3 +53,9 @@ I'm planning to add a few more procedures the definition namespace, namely
 
 - `example` Will give an example sentence with the word, and an English translation of the sentence.
 - `conjugations` Will list conjugations for verbs. I'm still trying to figure out exactly how to do this. I think the best way is to write them all out, so that irregulars don't have to be special-cased, and for my own practice. But, I want some helper methods that will autofill regular verbs in some times.
+
+## Implementation
+
+Now, here's where it gets weird. I'm new to TCL, I don't know the idioms, and have *may* have gone a little crazy with it's dynamic features.
+
+There's a global inside the `::dictionary` namespace called `EXECUTOR`. Functions are invoked in the namespace referenced by `EXECUTOR` as the dictionary is evaluated. The `::dictionary::definition` procedures normalize their input call an associated procedure in the `$EXECUTOR` namespace. For example `a. to go up` will invoke `$EXECUTOR::definition "a" "to go up"`. `$EXECUTOR::begin-word <WORD>` and `$EXECUTOR::end-word <WORD>` are called before and after the block is evaluated, there are similar functions for context.
