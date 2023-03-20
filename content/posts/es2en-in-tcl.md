@@ -1,7 +1,7 @@
 ---
 title: "Spanish to English Dictionary in TCL"
-date: 2023-03-10T12:55:20-05:00
-draft: true
+date: 2023-03-20T14:59:28-04:00
+draft: false
 ---
 
 Recently I've been playing around with possible machine-readable formats for a Spanish to English dictionary. My first attempt was using YAML, something along the lines of
