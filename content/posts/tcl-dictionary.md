@@ -82,7 +82,7 @@ namespace eval ::nop-executor {
     proc end-word {word} { }
 
     proc definition {label def} { }
-    proc part-of-speech {p} { }
+    proc class {p} { }
 
     proc begin-context {context} { }
     proc end-context {context} { }
