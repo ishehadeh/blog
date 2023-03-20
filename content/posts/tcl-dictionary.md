@@ -22,7 +22,6 @@ I could have probably worked on the YAML schema a bit more, and gotten it to be 
 
 I've been interested in TCl for a while. I keep *trying* to use it for something but its never stuck. But, a little mostly-data DSL seems like the *perfect* use-case.
 
-
 So, here's what I've got so far. I plan to develop it further as I study more spanish.
 
 ## Dictionary Format
@@ -47,7 +46,7 @@ Translations are defined with the "word" command.
 The block it's passed is evaluated in the `::dictionary::definition` namespace, which defines a few procedures.
 
 - `class` Primarily defines the words part of speech (noun, verb, adverb, etc.) then further (optional) classifications each preceded by a '.'
-- `context` Defines a sub-definition associated with some context, described by the first parameter. The following block can is also evaluated in the `definition` namespace, so it can even contain sub-contexts, or special-case the part of speech.
+- `context` Defines a sub-definition associated with some context, described by the first parameter. The following block can is also evaluated in the `definition` namespace, so it can even contain sub-contexts, or special case the part of speech.
 - `[a-z].` A single letter followed by a "." defines a translation, formed by joining the arguments with spaces.
 
 And that's about it. So far...
