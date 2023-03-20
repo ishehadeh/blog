@@ -98,4 +98,4 @@ namespace inscope ::dictionary {
 }
 ```
 
-I can't help but feel there's a *much* better way of doing this. I tried dictionaries, but they were really awkward to work with. Using the pull style parser keeps the implementation pretty simple, and lets me extract information pretty easily. I'll definitely keep my eye out for something else but this works well enough for now.
+I can't help but feel there's a *much* better way of doing this. I tried dictionaries, but they were really awkward to work with. Using the pull style parser keeps the implementation simple, and lets me extract information pretty easily. I'll definitely keep my eye out for something else but this works well enough for now.
