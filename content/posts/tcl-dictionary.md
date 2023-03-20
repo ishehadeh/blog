@@ -54,7 +54,7 @@ And that's about it. So far...
 I'm planning to add a few more procedures the definition namespace, specifically:
 
 - `example` Will give an example sentence with the word, and an English translation of the sentence.
-- `conjugations` Will list conjugations for verbs. I'm still trying to figure out exactly how to do this. I think the best way is to write them all out, so that irregulars don't have to be special-cased, and for my own practice. But, I want some helper methods that will autofill regular verbs in some times.
+- `conjugations` Will list conjugations for verbs. I'm still trying to figure out exactly how to do this. I think the best way is to write them all out, so that irregulars don't have to be special cased, and for my own practice. But, I want some helper methods that will autofill regular verbs in some times.
 
 ## Implementation
 
