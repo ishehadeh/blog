@@ -18,7 +18,7 @@ I could have probably worked on the YAML schema a bit more, and gotten it to be 
 1. I don't like YAML, aside from [all the good reasons](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) to not like it, I really just don't like whitespace-based syntax.
 2. It's boring! I've written a lot of YAML. It works, but I wanted to try something new.
 
-## Enter TCL
+## TCL
 
 I've been interested in TCl for a while. I keep *trying* to use it for something but its never stuck. But, a little mostly-data DSL seems like the *perfect* use-case.
 
