@@ -16,7 +16,7 @@ The schema was pretty simple and soon enough I needed something a bit more compl
 I could have probably worked on the YAML schema a bit more, and gotten it to be a good fit. But:
 
 1. I don't like YAML, aside from [all the good reasons](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) to not like it, I really just don't like whitespace-based syntax.
-2. It's boring.
+2. It's boring! I've written a lot of YAML. It works, but I wanted to try something new.
 
 ## Enter TCL
 
