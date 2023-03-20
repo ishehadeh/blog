@@ -20,7 +20,7 @@ I could have probably worked on the YAML schema a bit more, and gotten it to be 
 
 ## Enter TCL
 
-I've been TCL-curious for a while. I keep *trying* to use it for something but its never stuck. But, a little mostly-data DSL seems like the *perfect* use-case.
+I've been interested in TCl for a while. I keep *trying* to use it for something but its never stuck. But, a little mostly-data DSL seems like the *perfect* use-case.
 
 
 So, here's what I've got so far. I plan to develop it further as I study more spanish.
