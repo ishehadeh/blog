@@ -58,6 +58,44 @@ I'm planning to add a few more procedures the definition namespace, specifically
 
 ## Implementation
 
-Now, here's where it gets weird. I'm new to TCL, I don't know the idioms, and have *may* have gone a little crazy with it's dynamic features.
+Now, here's where it gets weird. I'm new to TCL, I don't know the idioms, and *may* have gone a little crazy with it's dynamic features.
 
 There's a global inside the `::dictionary` namespace called `EXECUTOR`. Functions are invoked in the namespace referenced by `EXECUTOR` as the dictionary is evaluated. The `::dictionary::definition` procedures normalize their input call an associated procedure in the `$EXECUTOR` namespace. For example `a. to go up` will invoke `$EXECUTOR::definition "a" "to go up"`. `$EXECUTOR::begin-word <WORD>` and `$EXECUTOR::end-word <WORD>` are called before and after the block is evaluated, there are similar functions for context.
+
+For example, here's the definition of `dictionary::word`:
+
+```tcl
+proc word {word body} {
+    variable EXECUTOR
+
+    namespace inscope $EXECUTOR begin-word $word
+    namespace inscope ::dictionary::definition $body
+    namespace inscope $EXECUTOR end-word $word
+}
+```
+
+Users can define a namespace that looks something like:
+
+```tcl
+namespace eval ::nop-executor {
+    proc begin-word {word} { }
+    proc end-word {word} { }
+
+    proc definition {label def} { }
+    proc part-of-speech {p} { }
+
+    proc begin-context {context} { }
+    proc end-context {context} { }
+}
+```
+
+Then set executor to the namespace and eval a dictionary in the `::dictionary` namespace:
+
+```tcl
+namespace inscope ::dictionary {
+    variable EXECUTOR "::nop-executor"
+    eval [read stdin]
+}
+```
+
+I can't help but feel there's a *much* better way of doing this. I tried dictionaries, but they were really awkward to work with. Using the pull style parser keeps the implementation pretty simple, and lets me extract information pretty easily. I'll definitely keep my eye out for something else but this works well enough for now.
