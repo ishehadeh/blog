@@ -1,5 +1,5 @@
 ---
-title: "Tcl Dictionary"
+title: "Spanish to English Dictionary in TCL"
 date: 2023-03-10T12:55:20-05:00
 draft: true
 ---
