@@ -32,6 +32,9 @@ fi
 
 echo "PROJECT_REMOTE_URL='$PROJECT_REMOTE_URL'"
 
+test -d public && rm -r public
+git clone "git@github.com:ishehadeh/ishehadeh.github.io" public/
+
 "$HUGO_BIN" $HUGO_FLAGS
 
 cd "$PROJECT_ROOT/public"
